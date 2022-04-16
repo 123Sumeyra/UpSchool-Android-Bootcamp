@@ -49,3 +49,17 @@ class MainActivity : AppCompatActivity() {
 - Neden kullanılmaktadır ?
 - Nasıl kullanılmalıdır ?
 - Bir adet Tools (tools namespace) attribute kullanımını gösterir misiniz ? 
+
+
+### Cevap:
+
+
+
+
+
+
+
+
+
+
+
