@@ -16,7 +16,28 @@
 #### Örnek Kullanım:
 Şöyle bir senaryo düşünelim. Butona tıkladığımızda kullanıcının girdiği veriyi texView de gösterelim. Bunu yaparkende **lateinit** yapısını kullanalım.
 
+```Kotlin
+class MainActivity : AppCompatActivity() {
+    private lateinit var enterName:EditText
+    private lateinit var showName:TextView
+    private lateinit var button: Button
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
 
+        enterName = findViewById(R.id.enterName)
+        showName = findViewById(R.id.showName)
+        button = findViewById(R.id.button)
+
+        button.setOnClickListener {
+            showName.text = enterName.text.toString()
+        }
+
+    }
+}
+
+
+```
 
 
 
