@@ -12,7 +12,7 @@
 
 ### Cevap:
 - Bir argümanın **null** gelme ihtimali varsa kesinlikle **nullable** kullanılmalı, Eğer bir argümanın null gelme ihtimalinin olmadığından eminseniz **lateinit** kullanabilirsiniz.
-- Kelime anlamı olarak daha sonra ilk değerini vereceğim demektir. Primitive türler ile kullanılmaz ve **var** değişkeni ile beraber kullanılır.
+- Kelime anlamı olarak daha sonra ilk değerini vereceğim demektir. Primitive türler ile kullanılmaz ve **var** değişkeni ile beraber kullanılır.  `lateinit var` şeklinde.
 
 
 
