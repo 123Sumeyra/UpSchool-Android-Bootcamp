@@ -56,7 +56,8 @@ class MainActivity : AppCompatActivity() {
 - **app:**  Android için yazılmış destek kütüphanelerini kullanmak için  veya kendi tanımladığın custom özellikler içinde kullanılır.
 - **android:** Android Sdk larından gelen özellikleri kullanmak için kullanılır
 - **tools:** Genelde emülatörü çalıştırmadan nasıl görüneceğini görmek için kullanılır.Kod için bir önemi yoktur. Yani **Run time** da çalışmaz.
-- Ayrıca bu namespace leri kullanabilmemiz için layout dizininde default olarak gelmektedir.
+- Ayrıca bu namespace leri kullanabilmemiz için layout dizininde default olarak gelmektedir. 
+DipNot: Eğer bu namespaceleri xml'e bağlandığı kısımları kaldrırısanız. Bu namespace ler sayesinde kullanabilidiğimiz özellikleri kullanamayız. 
 
 ```Kotlin
 xmlns:android="http://schemas.android.com/apk/res/android"
