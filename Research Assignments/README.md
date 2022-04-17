@@ -65,6 +65,13 @@ xmlns:app="http://schemas.android.com/apk/res-auto"
 xmlns:tools="http://schemas.android.com/tools"
 
 ```
+### Örnek Kullanım:
+Constraint Layout kullandığımız zaman kullandığımız **View** leri bağlamamız lazım. Bağlamazsak xml dosyasında o view'in altını çizer. Burada tools namespace çok kullanışlıdır. Bu özelliği kullanırız ve daha sonra bağlama işlemlerimizi yapabiliriz. Dilerseniz bağladıktan sonra bu kullanımı kaldırabilirsiniz o zaman hata gösterimi kalkar.
+```Kotlin
+tools:ignore="MissingConstraints"
+
+```
+
 
 
 
