@@ -53,9 +53,11 @@ class MainActivity : AppCompatActivity() {
 
 ### Cevap:
 - Layout dizininde xml dosyaları için kullandığımız namespaceler : **app**,**android**,***tools** şeklindedir.
-- **app:** 
-- **android:**
-- **tools:**
+- **app:**  Android için yazılmış destek kütüphanelerini kullanmak için  veya kendi tanımladığın custom özellikler içinde kullanılır
+- **android:** Android Sdk larından gelen özellikleri kullanmak için kullanılır
+- **tools:** Genelde emülatörü çalıştırmadan nasıl görüneceğini görmek için kullanılır.Kod için bir önemi yoktur. Yani **Run time** da çalışmaz.
+
+
 
 
 
