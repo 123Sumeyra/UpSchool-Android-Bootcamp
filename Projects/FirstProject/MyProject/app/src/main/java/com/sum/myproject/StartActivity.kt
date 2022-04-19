@@ -13,7 +13,7 @@ class StartActivity : AppCompatActivity(), View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this,R.layout.activity_start)
-        //setContentView(R.layout.activity_start)
+        binding.btnSignIn.setOnClickListener(this)
     }
 
     override fun onClick(view: View?) {
