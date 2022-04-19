@@ -13,10 +13,10 @@ This is one of homeworks from UpSchool Android Bootcamp.
   
   <tr>
     <td >
-      <img src="https://github.com/123Sumeyra/uiDesign/blob/main/ss/realSS/real_activity_start.png" width="200" hspace="5"/>
+      <img src="https://github.com/123Sumeyra/uiDesign/blob/main/ss/realSS/real_main.png" width="200" hspace="5"/>
     </td>
    <td>
-     <img src="https://github.com/123Sumeyra/uiDesign/blob/main/ss/realSS/real_main.png" width="200" hspace="5"/>
+     <img src="https://github.com/123Sumeyra/uiDesign/blob/main/ss/realSS/real_activity_start.png" width="200" hspace="5"/>
     </td>
       <td>
      <img src="https://github.com/123Sumeyra/uiDesign/blob/main/ss/realSS/real_premium.png" width="200" hspace="5"/>
@@ -39,10 +39,10 @@ This is one of homeworks from UpSchool Android Bootcamp.
   
   <tr>
     <td >
-      <img src="https://github.com/123Sumeyra/uiDesign/blob/main/ss/DoneSS/activity_start.png" width="200" hspace="5"/>
+      <img src="https://github.com/123Sumeyra/uiDesign/blob/main/ss/DoneSS/main.png" width="200" hspace="5"/>
     </td>
    <td>
-     <img src="https://github.com/123Sumeyra/uiDesign/blob/main/ss/DoneSS/main.png" width="200" hspace="5"/>
+     <img src="https://github.com/123Sumeyra/uiDesign/blob/main/ss/DoneSS/activity_start.png" width="200" hspace="5"/>
     </td>
       <td>
      <img src="https://github.com/123Sumeyra/uiDesign/blob/main/ss/DoneSS/premium.png" width="200" hspace="5"/>
