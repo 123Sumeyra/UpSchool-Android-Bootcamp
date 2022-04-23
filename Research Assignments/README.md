@@ -73,6 +73,7 @@ Constraint Layout kullandığımız zaman  **View** leri bağlamamız lazım. Ba
 tools:ignore="MissingConstraints"
 
 ```
+-Bu konu hakkında daha fazla bilgi alamak için [yazımı](https://ozugursumeyra.medium.com/kotlin-namespaceler-3348b16afe1a) okuyabilirsiniz.
 
 ### <a name="3"></a> Araştırma Projesi 3
 - Font family dosyası nasıl oluşturulup kullanıyoruz? 
