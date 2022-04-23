@@ -80,7 +80,7 @@ tools:ignore="MissingConstraints"
 - Font family projenizde deneyebilirsiniz?
 
 ### Cevap:
-- Öncelikle bir projeye başlamadan önce kullanacağın fontu belirlemelisiniz. Uygulamalarda belli bir fontu öne çıkarmak istediğiniz durumlarda kullanmalısınız. Ayrıca fontları custom olarak kullanmanın diğer bir yararı ise o fontun kaldırılma yada internetin olmadığı durumlarda ulaşılmama gibi olumsuz durumları ortadan kaldırı.
+- Öncelikle bir projeye başlamadan önce kullanacağın fontu belirlemelisiniz. Uygulamalarda belli bir fontu öne çıkarmak istediğiniz durumlarda kullanmalısınız. Ayrıca fontları custom olarak kullanmanın diğer bir yararı ise o fontun kaldırılma,güncellenme yada internetin olmadığı durumlarda ulaşılmama gibi olumsuz durumları ortadan kaldırır.
 -  [Fonts](https://fonts.google.com/) sitesinden fontları bulabilirsin.
 - Bu fontların isimlerini değiştirmelisiniz. Küçük harf ve "_ " kullanınız. 
 - res klasörünün altında "font" adında bir klasör oluşturup fontlarınızı içine atabilirsiniz.
