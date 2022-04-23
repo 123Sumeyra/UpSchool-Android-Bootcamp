@@ -77,10 +77,11 @@ tools:ignore="MissingConstraints"
 ### <a name="3"></a> Araştırma Projesi 3
 - Font family dosyası nasıl oluşturulup kullanıyoruz? 
 - Niçin böyle kullanımı tercih ediyoruz ?
-- Font family projenizde deneyebilirsiniz?(Optional)
+- Font family projenizde deneyebilirsiniz?
 
 ### Cevap:
-- Öncelikle bir projeye başlamadan önce kullanacağın fontu belirlemelisin. [Fonts](https://fonts.google.com/) sitesinden fontları bulabilirsin.
+- Öncelikle bir projeye başlamadan önce kullanacağın fontu belirlemelisiniz. Uygulamalarda belli bir fontu öne çıkarmak istediğiniz durumlarda kullanmalısınız. Ayrıca fontları custom olarak kullanmanın diğer bir yararı ise o fontun kaldırılma yada internetin olmadığı durumlarda ulaşılmama gibi olumsuz durumları ortadan kaldırı.
+-  [Fonts](https://fonts.google.com/) sitesinden fontları bulabilirsin.
 - Bu fontların isimlerini değiştirmelisiniz. Küçük harf ve "_ " kullanınız. 
 - res klasörünün altında "font" adında bir klasör oluşturup fontlarınızı içine atabilirsiniz.
 - Daha sonra fontlar için bir xml dosyası oluşturmalısınız. Bunu genelde seçtiğimiz font adıyla yapıyoruz. Mesala fontlarımı  "akshar_bold.ttf", "akshar_medium.ttf"...
@@ -122,7 +123,7 @@ tools:ignore="MissingConstraints"
 
 ```
 
-Daha sonra  ``` <item name= "android:fontFamily" >@font/akshar</item>``` şeklinde fontunuzu genel temaya verebilirsiniz.
+Daha sonra  ``` <item name= "android:fontFamily" >@font/akshar</item>``` şeklinde fontunuzu genel temaya verebilirsiniz. Yada tek tek ```  android:fontFamily="@font/akshar" ``` verebilirsiniz.
 
 activity.xml dosyası aşağıdaki gibidir.
 ```xml
@@ -181,8 +182,14 @@ style.xml ise
     </style>
 
 ```
+Ayrıca [kod](https://github.com/123Sumeyra/UpSchool-Android-Bootcamp/tree/main/Projects/FontProject) kodları ve oluşan çıktıya bakabilirsiniz.
+
+## Soru(Hocam Size)
 
 
+![deneme](https://user-images.githubusercontent.com/41166029/164948991-e6ad957d-dc7a-4eee-b638-1c02157c5099.png)
+1)bu şekilde kullanıp bütün fontları daha iyi görmek varken neden xml oluşturup, onu kullanmayı tercih etmeliyiz. 
+2)diyelim xml  seklinde font oluşturduk ama istedğimiz stile ulaşamyıyoruz o zaman **activity.xml** de ``` android:fontFamily="@font/akshar_light"``` şeklinde kullanabilir miyiz?
 
 
 ### <a name="4"></a> Araştırma Projesi 4
