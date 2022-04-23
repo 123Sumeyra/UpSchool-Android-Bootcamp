@@ -80,9 +80,48 @@ tools:ignore="MissingConstraints"
 - Font family projenizde deneyebilirsiniz?(Optional)
 
 ### Cevap:
-Öncelikle bir projeye başlamadan önce kullanacağın fontu belirlemelisin.[Fonts](https://fonts.google.com/) sitesinden fontları bulabilirsin.
-Bu fontların isimlerini değiştirmelisiniz. Küçük harf ve "_ " kullanınız.  res klasörünün altında "font" adında bir klasör oluşturup fontlarınızı içine atabilirsiniz.
-Daha sonra fontlar için bir xml dosyası oluşturmalısınız.
+- Öncelikle bir projeye başlamadan önce kullanacağın fontu belirlemelisin. [Fonts](https://fonts.google.com/) sitesinden fontları bulabilirsin.
+- Bu fontların isimlerini değiştirmelisiniz. Küçük harf ve "_ " kullanınız. 
+- res klasörünün altında "font" adında bir klasör oluşturup fontlarınızı içine atabilirsiniz.
+- Daha sonra fontlar için bir xml dosyası oluşturmalısınız. Bunu genelde seçtiğimiz font adıyla yapıyoruz. Mesala fontlarımı  "akshar_bold.ttf", "akshar_medium.ttf"...
+şeklinde ise  xml dosyamızın adını **akshar** vermek daha doğru olabilir. 
+- Daha sonra fontları bu xml dosyasında tanımlamalıyız. 
+- font weigh için (400 -> regular için kullanılırken 700 -> bold weight için kullanılır.)
+- font style normal veya italic.
+```xml
+<font-family
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/akshar_light"
+        />
+
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/akshar_regular"
+        />
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="700"
+        android:font="@font/akshar_bold"
+        />
+
+    <font
+        android:fontStyle="italic"
+        android:fontWeight="400"
+        android:font="@font/akshar_medium" />
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="700"
+        android:font="@font/akshar_semibold"/>
+
+</font-family>
+
+```
+
 
 
 ### <a name="4"></a> Araştırma Projesi 4
