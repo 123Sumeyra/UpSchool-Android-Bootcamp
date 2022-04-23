@@ -79,6 +79,8 @@ tools:ignore="MissingConstraints"
 - Niçin böyle kullanımı tercih ediyoruz ?
 - Font family projenizde deneyebilirsiniz?(Optional)
 
+### Cevap:
+Öncelikle bir projeye başlamadan önce kullanacağın fontu belirlemelisin.[fonts}(https://fonts.google.com/) sitesinden fontları bulabilirsin.
 
 
 ### <a name="4"></a> Araştırma Projesi 4
