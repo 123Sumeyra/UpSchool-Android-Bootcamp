@@ -80,7 +80,9 @@ tools:ignore="MissingConstraints"
 - Font family projenizde deneyebilirsiniz?(Optional)
 
 ### Cevap:
-Öncelikle bir projeye başlamadan önce kullanacağın fontu belirlemelisin.[fonts}(https://fonts.google.com/) sitesinden fontları bulabilirsin.
+Öncelikle bir projeye başlamadan önce kullanacağın fontu belirlemelisin.[Fonts](https://fonts.google.com/) sitesinden fontları bulabilirsin.
+Bu fontların isimlerini değiştirmelisiniz. Küçük harf ve "_ " kullanınız.  res klasörünün altında "font" adında bir klasör oluşturup fontlarınızı içine atabilirsiniz.
+Daha sonra fontlar için bir xml dosyası oluşturmalısınız.
 
 
 ### <a name="4"></a> Araştırma Projesi 4
