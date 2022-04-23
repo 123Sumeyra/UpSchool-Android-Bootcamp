@@ -182,7 +182,7 @@ style.xml ise
     </style>
 
 ```
-Ayrıca [kod](https://github.com/123Sumeyra/UpSchool-Android-Bootcamp/tree/main/Projects/FontProject) kodları ve oluşan çıktıya bakabilirsiniz.
+Ayrıca [kodlara](https://github.com/123Sumeyra/UpSchool-Android-Bootcamp/tree/main/Projects/FontProject)  ve oluşan çıktıya bakabilirsiniz.
 
 ## Soru(Hocam Size)
 
