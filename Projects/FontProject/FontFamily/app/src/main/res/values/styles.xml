@@ -1,40 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Text1Style">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginTop">92dp</item>
-        <item name="fontFamily">@font/akshar_regular</item>
-    </style>
 
-    <style name="Text2Style">
+    <style name="TextStyle">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginTop">56dp</item>
-        <item name="fontFamily">@font/akshar_bold</item>
-    </style>
-
-    <style name="Text3Style">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginTop">44dp</item>
-        <item name="fontFamily">@font/akshar_medium</item>
-    </style>
-
-    <style name="Text4Style">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginTop">52dp</item>
-        <item name="android:textStyle">bold|italic</item>
-        <item name="fontFamily">@font/akshar_light</item>
-    </style>
-
-    <style name="Text5Style">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginTop">72dp</item>
-        <item name="android:fontFamily">@font/akshar</item>
-        <item name="fontFamily">@font/akshar_semibold</item>
+        <item name="android:layout_marginTop">70dp</item>
+        <item name="android:textSize">20sp</item>
     </style>
 </resources>
