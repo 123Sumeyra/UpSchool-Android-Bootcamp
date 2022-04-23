@@ -122,6 +122,67 @@ tools:ignore="MissingConstraints"
 
 ```
 
+Daha sonra  ``` <item name= "android:fontFamily" >@font/akshar</item>``` şeklinde fontunuzu genel temaya verebilirsiniz.
+
+activity.xml dosyası aşağıdaki gibidir.
+```xml
+ <TextView
+        android:id="@+id/textView"
+        android:text="@string/izmir"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.422"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/TextStyle" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:text="@string/izmir"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        style="@style/TextStyle"
+      />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:text="@string/izmir"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        style="@style/TextStyle"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:text="@string/izmir"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        style="@style/TextStyle"/>
+
+```
+
+style.xml ise
+```xml
+    <style name="TextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">70dp</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+```
+
+
 
 
 ### <a name="4"></a> Araştırma Projesi 4
