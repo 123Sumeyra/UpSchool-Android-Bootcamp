@@ -1,6 +1,7 @@
 # Araştırma Ödevleri:
 - [Araştırma Projesi 1 - Lateinit](#1)
 - [Araştırma Projesi 2 - Tools Namespace](#2)
+- [Araştırma Projesi 3 - Font Fanily](#3)
 
 
 
@@ -71,6 +72,16 @@ Constraint Layout kullandığımız zaman  **View** leri bağlamamız lazım. Ba
 tools:ignore="MissingConstraints"
 
 ```
+
+### <a name="3"></a> Araştırma Projesi 3
+- Font family dosyası nasıl oluşturulup kullanıyoruz? 
+- Niçin böyle kullanımı tercih ediyoruz ?
+- Font family projenizde deneyebilirsiniz?(Optional)
+
+
+
+### <a name="4"></a> Araştırma Projesi 4
+-Property Animation ile ilgili olarak objectAnimator ile animator arasındaki farkı kısaca açıklayınız
 
 
 
