@@ -188,8 +188,8 @@ Ayrıca [kod](https://github.com/123Sumeyra/UpSchool-Android-Bootcamp/tree/main/
 
 
 ![deneme](https://user-images.githubusercontent.com/41166029/164948991-e6ad957d-dc7a-4eee-b638-1c02157c5099.png)
-- 1)bu şekilde kullanıp bütün fontları daha iyi görmek varken neden xml oluşturup, onu kullanmayı tercih etmeliyiz. 
-- 2)diyelim xml  seklinde font oluşturduk ama istedğimiz stile ulaşamyıyoruz o zaman **activity.xml** de ``` android:fontFamily="@font/akshar_light"``` şeklinde kullanabilir miyiz?
+- 1)bu şekilde kullanıp bütün fontları daha iyi görmek varken neden xml oluşturup, onu kullanmayı tercih etmeliyiz. Yada her iki yöntemi de kullanabilir miyiz?
+- 2)diyelim xml  seklinde font oluşturduk ama istedğimiz stile ulaşamyıyoruz o zaman **activity.xml** de ``` android:fontFamily="@font/akshar_light"``` şeklinde kullanabilir miyiz? Yani bu kullanım doğru bir kullanım mı olur?
 
 
 ### <a name="4"></a> Araştırma Projesi 4
