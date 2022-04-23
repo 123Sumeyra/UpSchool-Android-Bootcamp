@@ -4,14 +4,19 @@
 
     <font
         android:fontStyle="normal"
-        android:fontWeight="800"
+        android:fontWeight="400"
         android:font="@font/akshar_light"
         />
 
     <font
         android:fontStyle="normal"
-        android:fontWeight="600"
+        android:fontWeight="400"
         android:font="@font/akshar_regular"
+        />
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="700"
+        android:font="@font/akshar_bold"
         />
 
     <font
@@ -20,7 +25,7 @@
         android:font="@font/akshar_medium" />
     <font
         android:fontStyle="normal"
-        android:fontWeight="100"
+        android:fontWeight="700"
         android:font="@font/akshar_semibold"/>
 
 
