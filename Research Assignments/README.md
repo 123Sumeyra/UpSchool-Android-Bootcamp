@@ -1,7 +1,8 @@
 # Araştırma Ödevleri:
 - [Araştırma Projesi 1 - Lateinit](#1)
 - [Araştırma Projesi 2 - Tools Namespace](#2)
-- [Araştırma Projesi 3 - Font Fanily](#3)
+- [Araştırma Projesi 3 - Font Family](#3)
+- [Araştırma Projesi 4 - Property Animation](#4)
 
 
 
