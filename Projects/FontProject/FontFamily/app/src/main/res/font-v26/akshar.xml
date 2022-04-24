@@ -4,7 +4,7 @@
 
     <font
         android:fontStyle="normal"
-        android:fontWeight="400"
+        android:fontWeight="200"
         android:font="@font/akshar_light"
         />
 
@@ -20,12 +20,11 @@
         />
 
     <font
-        android:fontStyle="italic"
-        android:fontWeight="400"
+        android:fontStyle="normal"
+        android:fontWeight="500"
         android:font="@font/akshar_medium" />
     <font
         android:fontStyle="normal"
-        android:fontWeight="700"
+        android:fontWeight="600"
         android:font="@font/akshar_semibold"/>
-
 </font-family>

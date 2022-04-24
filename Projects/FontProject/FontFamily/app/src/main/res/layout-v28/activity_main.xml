@@ -21,16 +21,18 @@
         android:id="@+id/textView2"
         android:text="@string/izmir"
         android:textFontWeight="200"
+        android:textStyle="normal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         style="@style/TextStyle"
-        />
+      />
 
     <TextView
         android:id="@+id/textView3"
         android:text="@string/izmir"
+        android:textStyle="normal"
         android:textFontWeight="500"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
@@ -58,8 +60,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
         style="@style/TextStyle"/>
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
