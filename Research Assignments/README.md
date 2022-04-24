@@ -81,15 +81,17 @@ tools:ignore="MissingConstraints"
 - Font family projenizde deneyebilirsiniz?
 
 ### Cevap:
-- Öncelikle bir projeye başlamadan önce kullanacağın fontu belirlemelisiniz. Uygulamalarda belli bir fontu öne çıkarmak istediğiniz durumlarda kullanmalısınız. Ayrıca fontları custom olarak kullanmanın diğer bir yararı ise o fontun kaldırılma,güncellenme yada internetin olmadığı durumlarda ulaşılmama gibi olumsuz durumları ortadan kaldırır.
--  [Fonts](https://fonts.google.com/) sitesinden fontları bulabilirsin.
-- Bu fontların isimlerini değiştirmelisiniz. Küçük harf ve "_ " kullanınız. 
-- res klasörünün altında "font" adında bir klasör oluşturup fontlarınızı içine atabilirsiniz.
-- Daha sonra fontlar için bir xml dosyası oluşturmalısınız. Bunu genelde seçtiğimiz font adıyla yapıyoruz. Mesala fontlarımı  "akshar_bold.ttf", "akshar_medium.ttf"...
+- **NİÇİN  KULLANIYORUZ?** </br>
+ Öncelikle bir projeye başlamadan önce kullanacağın fontu belirlemelisiniz. Uygulamalarda belli bir fontu öne çıkarmak istediğiniz durumlarda kullanmalısınız. Ayrıca fontları custom olarak kullanmanın diğer bir yararı ise o fontun kaldırılma,güncellenme yada internetin olmadığı durumlarda ulaşılmama gibi olumsuz durumları ortadan kaldırır.
+- **KULLANIMI?** 
+  -  [Fonts](https://fonts.google.com/) sitesinden fontları bulabilirsin.
+  - Bu fontların isimlerini değiştirmelisiniz. Küçük harf ve "_ " kullanınız. 
+  - res klasörünün altında "font" adında bir klasör oluşturup fontlarınızı içine atabilirsiniz.
+  - Daha sonra fontlar için bir xml dosyası oluşturmalısınız. Bunu genelde seçtiğimiz font adıyla yapıyoruz. Mesala fontlarımı  "akshar_bold.ttf", "akshar_medium.ttf"...
 şeklinde ise  xml dosyamızın adını **akshar** vermek daha doğru olabilir. 
-- Daha sonra fontları bu xml dosyasında tanımlamalıyız. 
-- font weigh için (400 -> regular için kullanılırken 700 -> bold weight için kullanılır.)
-- font style normal veya italic.
+  - Daha sonra fontları bu xml dosyasında tanımlamalıyız. 
+  - font weigh için (400 -> regular için kullanılırken 700 -> bold weight için kullanılır.)
+  - font style normal veya italic.
 ```xml
 <font-family
     xmlns:android="http://schemas.android.com/apk/res/android">
