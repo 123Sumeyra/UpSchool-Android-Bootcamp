@@ -90,15 +90,14 @@ tools:ignore="MissingConstraints"
   - Daha sonra fontlar için bir xml dosyası oluşturmalısınız. Bunu genelde seçtiğimiz font adıyla yapıyoruz. Mesala fontlarımı  "akshar_bold.ttf", "akshar_medium.ttf"...
 şeklinde ise  xml dosyamızın adını **akshar** vermek daha doğru olabilir. 
   - Daha sonra fontları bu xml dosyasında tanımlamalıyız. 
-  - font weigh için (400 -> regular için kullanılırken 700 -> bold weight için kullanılır.)
-  - font style normal veya italic.
+
 ```xml
 <font-family
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <font
         android:fontStyle="normal"
-        android:fontWeight="400"
+        android:fontWeight="200"
         android:font="@font/akshar_light"
         />
 
@@ -114,17 +113,31 @@ tools:ignore="MissingConstraints"
         />
 
     <font
-        android:fontStyle="italic"
-        android:fontWeight="400"
+        android:fontStyle="normal"
+        android:fontWeight="500"
         android:font="@font/akshar_medium" />
     <font
         android:fontStyle="normal"
-        android:fontWeight="700"
+        android:fontWeight="600"
         android:font="@font/akshar_semibold"/>
 
 </font-family>
 
 ```
+
+- **Font Weight için**
+  - 100 Thin
+  - 200 Light
+  - 300 Bold
+  - 400 Regular
+  - 500 Medium
+  - 600 SemiBold
+  - 700 Bold
+  - 800 ExtraBold
+  - 900 Heavy
+- **Font Style için** 
+  - normal veya
+  -  italic.
 
 Daha sonra  ``` <item name= "android:fontFamily" >@font/akshar</item>``` şeklinde fontunuzu genel temaya verebilirsiniz. Yada tek tek ```  android:fontFamily="@font/akshar" ``` verebilirsiniz.
 
