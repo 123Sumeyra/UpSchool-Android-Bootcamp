@@ -95,7 +95,7 @@ tools:ignore="MissingConstraints"
 <font-family
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <font
+     <font
         android:fontStyle="normal"
         android:fontWeight="200"
         android:font="@font/akshar_light"
@@ -146,6 +146,7 @@ activity.xml dosyası aşağıdaki gibidir.
  <TextView
         android:id="@+id/textView"
         android:text="@string/izmir"
+        android:textFontWeight="700"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.422"
         app:layout_constraintStart_toStartOf="parent"
@@ -155,8 +156,8 @@ activity.xml dosyası aşağıdaki gibidir.
     <TextView
         android:id="@+id/textView2"
         android:text="@string/izmir"
-        android:textSize="20sp"
-        android:textStyle="italic"
+        android:textFontWeight="200"
+        android:textStyle="normal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -167,8 +168,8 @@ activity.xml dosyası aşağıdaki gibidir.
     <TextView
         android:id="@+id/textView3"
         android:text="@string/izmir"
-        android:textSize="20sp"
-        android:textStyle="bold"
+        android:textStyle="normal"
+        android:textFontWeight="500"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
@@ -178,14 +179,23 @@ activity.xml dosyası aşağıdaki gibidir.
     <TextView
         android:id="@+id/textView4"
         android:text="@string/izmir"
+        android:textFontWeight="400"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
         android:textSize="20sp"
-        android:textStyle="bold|italic"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3"
         style="@style/TextStyle"/>
 
+    <TextView
+        android:id="@+id/textView5"
+        android:text="@string/izmir"
+        android:textFontWeight="600"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        style="@style/TextStyle"/>
 ```
 
 style.xml ise
@@ -200,12 +210,6 @@ style.xml ise
 ```
 Ayrıca [kodlara](https://github.com/123Sumeyra/UpSchool-Android-Bootcamp/tree/main/Projects/FontProject)  ve oluşan çıktıya bakabilirsiniz.
 
-## Soru(Hocam Size)
-
-
-![deneme](https://user-images.githubusercontent.com/41166029/164948991-e6ad957d-dc7a-4eee-b638-1c02157c5099.png)
-- 1)bu şekilde kullanıp bütün fontları daha iyi görmek varken neden xml oluşturup, onu kullanmayı tercih etmeliyiz. Yada her iki yöntemi de kullanabilir miyiz?
-- 2)diyelim xml  seklinde font oluşturduk ama istedğimiz stile ulaşamyıyoruz o zaman **activity.xml** de ``` android:fontFamily="@font/akshar_light"``` şeklinde kullanabilir miyiz? Yani bu kullanım doğru bir kullanım mı olur?
 
 
 ### <a name="4"></a> Araştırma Projesi 4
