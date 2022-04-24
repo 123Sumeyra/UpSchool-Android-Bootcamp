@@ -200,11 +200,12 @@ activity.xml dosyası aşağıdaki gibidir.
 
 style.xml ise
 ```xml
-    <style name="TextStyle">
+   <style name="TextStyle">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginTop">70dp</item>
         <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">normal</item>
     </style>
 
 ```
