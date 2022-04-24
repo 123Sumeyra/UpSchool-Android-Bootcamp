@@ -128,7 +128,7 @@ tools:ignore="MissingConstraints"
 - **Font Weight için**
   - 100 Thin
   - 200 Light
-  - 300 Bold
+  - 300 Book
   - 400 Regular
   - 500 Medium
   - 600 SemiBold
