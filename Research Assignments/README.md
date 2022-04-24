@@ -209,7 +209,8 @@ style.xml ise
     </style>
 
 ```
-Ayrıca [kodlara](https://github.com/123Sumeyra/UpSchool-Android-Bootcamp/tree/main/Projects/FontProject)  ve oluşan çıktıya bakabilirsiniz.
+Ayrıca [kodlara](https://github.com/123Sumeyra/UpSchool-Android-Bootcamp/tree/main/Projects/FontProject)  ve oluşan çıktıya bakabilirsiniz. <br/>
+Daha ayrıntılı bilgi için [dökümantasyon](https://developer.android.com/guide/topics/ui/look-and-feel/fonts-in-xml) inceleyebilirsiniz.
 
 
 
