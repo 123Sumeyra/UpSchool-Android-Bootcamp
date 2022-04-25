@@ -1,7 +1,7 @@
 # Tween Animation
 
-First of all, you sure that "res/anim "folder like this. Tween animation contain alpha animation, scale animation, translate animation and rotate animation.
-- **Alpha animation:** it contain fade in and fade out animation. 
+First of all, you sure that "res/anim "folder like this. Tween animation contains alpha animation, scale animation, translate animation and rotate animation.
+- **Alpha animation:** it contains fade in and fade out animation. 
 - **Scale animation:** it is a resizing animation
 - **Translate animation:** A vertical and/or horizontal motion
 - **Rotate animation:** A rotation animation.  </br>
