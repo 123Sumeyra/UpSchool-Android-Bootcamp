@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="153dp"
+            android:layout_height="133dp"
+            android:layout_marginTop="144dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_star" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/translateClick"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="92dp"
+            android:text="Translate"
+            android:textAllCaps="false"
+            app:layout_constraintBottom_toBottomOf="@+id/rotateClick"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/rotateClick"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/alfaClick"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="92dp"
+            android:text="Alfa"
+            android:textAllCaps="false"
+            app:layout_constraintBottom_toBottomOf="@+id/scaleClick"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/scaleClick"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/rotateClick"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="29dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="72dp"
+            android:text="Rotate"
+            android:textAllCaps="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.26"
+            app:layout_constraintStart_toEndOf="@+id/translateClick" />
+
+        <Button
+            android:id="@+id/scaleClick"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="4dp"
+            android:text="Scale"
+            android:textAllCaps="false"
+            app:layout_constraintBottom_toTopOf="@+id/rotateClick"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/alfaClick" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
