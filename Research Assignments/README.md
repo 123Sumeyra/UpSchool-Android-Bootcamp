@@ -215,9 +215,23 @@ Daha ayrıntılı bilgi için [dökümantasyon](https://developer.android.com/gu
 
 
 ### <a name="4"></a> Araştırma Projesi 4
--Property Animation ile ilgili olarak objectAnimator ile animator arasındaki farkı kısaca açıklayınız. </br>
+- Property Animation ile ilgili olarak objectAnimator ile animator arasındaki farkı kısaca açıklayınız. </br>
 ### Cevap:
-Animator genelde value animator şeklinde adlandırılır. Object animator, animator(value animator)'un alt sınıfıdır.  </br>
+**Animator:** Value animatorü temsil eder. </br>
+**Object animator:**, Object animatorü temsil eder. Value animatorün alt sınıfıdır. Yani object animatorün yapabildiği her şeyi value animator yapabilir. </br>
+**Peki neden kullanıyoruz o zaman object animatorü?**
+- 
+
+| What we can do             | Object Animator | Value Animator   
+| -------------              | -------------   | --------    |
+| `Basic Animation`          | YES             | YES         |
+| `Property Animation`       | YES             | YES         |
+| `Custom Animation`         | NO              | YES         |
+| `Multiple Animation`       | NO              | YES         |
+| `Multiple Object Animation`| NO              | YES         |
+| `Repeate Animation`        | YES             | YES         |
+| `Sequence Animation`       | NO              | NO          |
+
 Daha ayrıntılı bilgi için [dökümantasyon](https://developer.android.com/guide/topics/resources/animation-resource#Property) inceleyebilirsiniz.
 
 
