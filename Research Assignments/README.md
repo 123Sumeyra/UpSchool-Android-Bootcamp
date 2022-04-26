@@ -220,7 +220,7 @@ Daha ayrıntılı bilgi için [dökümantasyon](https://developer.android.com/gu
 **Animator:**  Value animatorü temsil eder. </br>
 **Object animator:**, Object animatorü temsil eder. Value animatorün alt sınıfıdır. Yani object animatorün yapabildiği her şeyi value animator yapabilir. </br>
 - Peki neden kullanıyoruz o zaman object animatorü?
-- 
+  - Hedef objenin üstünde animating sürecini çok daha kolay yapıyor. 
 
 | What we can do             | Object Animator | Value Animator   
 | -------------              | -------------   | --------    |
@@ -231,6 +231,9 @@ Daha ayrıntılı bilgi için [dökümantasyon](https://developer.android.com/gu
 | `Multiple Object Animation`| NO              | YES         |
 | `Repeate Animation`        | YES             | YES         |
 | `Sequence Animation`       | NO              | NO          |
+
+
+**Android Dev [Summit](https://www.youtube.com/watch?v=N_x7SV3I3P0&list=PLmEM3-F7iVMlm936VEVxlITwdn60XJQX0&t=355s)** etkinliğin de bu konu hakkında şöyle denmiş: </br>
 
 Daha ayrıntılı bilgi için [dökümantasyon](https://developer.android.com/guide/topics/resources/animation-resource#Property) inceleyebilirsiniz.
 
