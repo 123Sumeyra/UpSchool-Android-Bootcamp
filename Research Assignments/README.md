@@ -234,10 +234,10 @@ Daha ayrıntılı bilgi için [dökümantasyon](https://developer.android.com/gu
 
 
 **Android Dev [Summit](https://www.youtube.com/watch?v=N_x7SV3I3P0&list=PLmEM3-F7iVMlm936VEVxlITwdn60XJQX0&t=355s)** etkinliğin de bu konu hakkında şöyle denmiş: </br>
-**Object animator**  genelde property animation için kullanılır. Yani senin bir özelliğin vardır.Bunada animasyon vermek istiyorsundur o zaman kullanabilirsin.
+**Object animator**  genelde property animation için kullanılır. Yani senin bir özelliğin vardır. Bunada animasyon vermek istiyorsundur o zaman kullanabilirsin.
 **Value animator** custom animation için kullanılır. Ui daki özelliklerde kullanabilirsin.
 
-Daha ayrıntılı bilgi için [dökümantasyon](https://developer.android.com/guide/topics/resources/animation-resource#Property) inceleyebilirsiniz.
+Daha ayrıntılı bilgi için [dökümantasyon](https://developer.android.com/guide/topics/resources/animation-resource#Property) ve [medium](https://medium.com/mobile-app-development-publication/which-android-animator-to-use-ced54e21d317) yazısını inceleyebilirsiniz.
 
 
 
