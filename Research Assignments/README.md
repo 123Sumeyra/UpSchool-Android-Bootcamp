@@ -82,7 +82,7 @@ tools:ignore="MissingConstraints"
 
 ### Cevap:
 - **NİÇİN  KULLANIYORUZ?** </br>
-Uygulamalarda belli bir fontu öne çıkarmak istediğiniz durumlarda kullanmalısınız.Kendi fontumuzu oluşturuyoruz şeklinde düşünebilirsiniz.font dosyalarına ayrı ayrı ulaşmak yerine tek bir kaynak ulaşmamızı sağlar. Ayrıca fontları custom olarak kullanmanın diğer bir yararı ise o fontun kaldırılma,güncellenme yada internetin olmadığı durumlarda ulaşılmama gibi olumsuz durumları ortadan kaldırır.
+Uygulamalarda belli bir fontu öne çıkarmak istediğiniz durumlarda kullanabilirsiniz. Kendi fontumuzu oluşturuyoruz şeklinde düşünebilirsiniz. Font dosyalarına ayrı ayrı ulaşmak yerine tek bir kaynak ulaşmamızı sağlar.Bu durum kaynak yönetimi açısından da avantaj sağlar bize. Ayrıca fontları custom olarak kullanmanın diğer bir yararı ise o fontun kaldırılma,güncellenme yada internetin olmadığı durumlarda ulaşılmama gibi olumsuz durumları ortadan kaldırır.
 - **KULLANIMI?** 
   -  [Fonts](https://fonts.google.com/) sitesinden fontları bulabilirsin.
   - Bu fontların isimlerini değiştirmelisiniz. Küçük harf ve "_ " kullanınız. 
