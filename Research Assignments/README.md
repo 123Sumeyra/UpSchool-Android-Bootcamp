@@ -215,7 +215,8 @@ Daha ayrıntılı bilgi için [dökümantasyon](https://developer.android.com/gu
 
 
 ### <a name="4"></a> Araştırma Projesi 4
--Property Animation ile ilgili olarak objectAnimator ile animator arasındaki farkı kısaca açıklayınız
+-Property Animation ile ilgili olarak objectAnimator ile animator arasındaki farkı kısaca açıklayınız.
+Daha ayrıntılı bilgi için [dökümantasyon](https://developer.android.com/guide/topics/resources/animation-resource#Property) inceleyebilirsiniz.
 
 
 
