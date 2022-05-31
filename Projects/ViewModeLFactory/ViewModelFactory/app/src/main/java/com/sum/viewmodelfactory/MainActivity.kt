@@ -9,8 +9,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val viewModelFactory = MainViewModelFactory()
-        var viewModel = ViewModelProvider(this).get(MainViewModel::class.java)
+        val viewModelFactory = MainViewModelFactory("Sumeyra")
+        var viewModel = ViewModelProvider(this,viewModelFactory).get(MainViewModel::class.java)
 
     }
 }
