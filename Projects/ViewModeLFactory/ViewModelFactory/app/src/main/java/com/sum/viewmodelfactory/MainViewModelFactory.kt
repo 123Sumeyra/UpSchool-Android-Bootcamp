@@ -9,7 +9,7 @@ class MainViewModelFactory(private var name:String): ViewModelProvider.Factory {
         if(modelClass.isAssignableFrom(MainViewModel::class.java)){
             return MainViewModel(name) as T
         }
-        throw  IllegalArgumentException("ViewModel class not founded")
+        throw  IllegalArgumentException("ViewModel class not founded $name")
 
     }
 }

@@ -10,6 +10,6 @@ class MainViewModel(name:String): ViewModel() {
 
 
     init{
-        Log.d("ViewModel","My Youtube channel name is ")
+        Log.d("ViewModel","My Youtube channel name is $myName ")
     }
 }
